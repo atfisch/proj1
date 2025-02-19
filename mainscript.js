@@ -1,5 +1,5 @@
 atomCount = 0;
-function make_atom() {
+document.getElementById('atombtn').onclick() {
   atomCount += 1;
   document.getElementById("atoms").innerHTML = "Atoms: "+=atomCount.ToString();
 }
