@@ -11,12 +11,7 @@
   <h2 id="atoms">Atoms: </h2>
   <button id="atombtn" onclick="make_atom()">press me</button>
   <script>
-    atomCount = 0;
-    function make_atom() {
-      alert("hi",atomCount);
-      atomCount += 1;
-      document.getElementById("atoms").innerHTML = "Atoms: "+=atomCount.ToString();
-    }
+    document.GetElementById("atoms").innerHTML = "hi";
   </script>
 </body>
 </html>
