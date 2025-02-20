@@ -1,6 +1,8 @@
-atomCount = 0;
+const atoms = document.querySelector(".atoms");
+var atomCount = 0;
+
 function make_atom() {
   alert("hi",atomCount);
   atomCount += 1;
-  document.getElementById("atoms").innerHTML = "Atoms: "+=atomCount.ToString();
+  atoms.innerHTML = "Atoms: "+=atomCount.ToString();
 }
