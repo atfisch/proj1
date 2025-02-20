@@ -3,5 +3,5 @@ var atomCount = 0;
 
 function make_atom() {
   atomCount += 1;
-  atoms.innerHTML = "Atoms: " + atomCount;
+  atoms.innerHTML = "Atoms: {atomCount}";
 }
