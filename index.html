@@ -4,11 +4,19 @@
   <meta charset="utf-8">
   <title>Hello</title>
   <link href="style.css" rel="stylesheet" />
-  <script src="mainscript.js"></script>
 </head>
 <body>
+  <script src="mainscript.js"></script>
   <h1>Proj1</h1>
   <h2 id="atoms">Atoms: </h2>
   <button id="atombtn" onclick="make_atom()">press me</button>
+  <script>
+    atomCount = 0;
+    function make_atom() {
+      alert("hi",atomCount);
+      atomCount += 1;
+      document.getElementById("atoms").innerHTML = "Atoms: "+=atomCount.ToString();
+    }
+  </script>
 </body>
 </html>
